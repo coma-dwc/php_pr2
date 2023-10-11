@@ -289,4 +289,17 @@ foreach($products as $i) {
 }
 ?>
 */
+
+/*
+■PHP入門 練習問題12
+【問題】税抜き価格 9876円の商品を変数に代入し、税込み価格（税率8%)を小数点以下を切り捨てて表示してください。
+*/
+
+/*
+$price = 9876;
+$taxinprace = $price * 1.08;
+$total = (int)$taxinprace;
+echo "{$total}円です。";
+*/
+
 ?>
